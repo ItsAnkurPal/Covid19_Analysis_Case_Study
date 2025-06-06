@@ -64,11 +64,11 @@ confirmed_df['Province/State'].fillna('All Provinces', inplace=True)
 
 | Country  | Date       | Peak Cases |
 |----------|------------|------------|
-| Italy    | 2020-11-13 | 40902      |
-| France   | 2020-11-07 | 86852      |
-| Germany  | 2020-12-18 | 33777      |
+| France    | 2021-04-11 | 117900      |
+| Germany   | 2020-12-30 | 49044      |
+| Italy  | 2020-11-13 | 40902      |
 
-France had the highest single-day surge.
+France had the highest single-day surge of New Cases: 117900 on 2021-04-11.
 
 ---
 
@@ -83,8 +83,8 @@ France had the highest single-day surge.
 
 **Q5.3: Death Rate Distribution – Canada Provinces**
 
-- Highest: **Quebec**
-- Lowest: **New Brunswick**
+- Highest Death Rates: **Quebec**
+- Lowest Death Rates: **New Brunswick**
 
 ---
 
@@ -107,9 +107,11 @@ Date converted using `pd.to_datetime()`.
 **Q6.2: Total Deaths Per Country (Latest Date)**
 
 ```text
-USA: 589000+
-Brazil: 400000+
-India: 200000+
+US                       594306
+Brazil                   461057
+India                    325972
+Mexico                   223455
+United Kingdom           128037
 ```
 
 ---
@@ -117,11 +119,11 @@ India: 200000+
 **Q6.3: Top 5 Countries by Avg. Daily Deaths**
 
 ```text
-1. USA
-2. Brazil
-3. India
-4. Mexico
-5. UK
+US                1203.048583
+Brazil             933.313765
+India              659.862348
+Mexico             452.338057
+United Kingdom     259.184211
 ```
 
 ---
@@ -161,23 +163,29 @@ merged_df = confirmed.merge(deaths)...merge(recovered)
 **Q8.1: Top 3 Countries by Avg. Death Rate in 2020**
 
 ```text
-1. Yemen
-2. Mexico
-3. Peru
+Yemen	     : 0.192393
+MS Zaandam   : 0.177134
+Italy	     : 0.094642
 ```
 
 ---
 
 **Q8.2: South Africa: Recoveries vs Deaths**
 
-Recoveries > Deaths → Outcome relatively favorable.
+```text
+Total Recoveries in South Africa: 310037573.0
+Total Deaths in South Africa: 10250036.0
 
+In South Africa, the total number of recoveries is significantly 
+higher than the total number of deaths.
+```
 ---
 
 **Q8.3: Monthly Recovery Ratio in the US**
 
 
-- **Peak Month**: June 2020
+- **Peak Month**: November 2020
 - Reason: Stabilization + treatment effectiveness
+-Highest recovery ratio: 0.3958
 
 ---
