@@ -21,12 +21,21 @@ All datasets loaded successfully with appropriate headers and inspected using `.
 
 **Q2.2: Confirmed cases over time for top 5 countries**
 
-![Top Countries Confirmed Cases](top_countries_confirmed.png)
+<details>
+  <summary>Show Image: Top Countries Confirmed Cases</summary>
+
+  ![Top Countries Confirmed Cases](top_countries_confirmed.png)
+
+</details>
 
 **Q2.3: Confirmed cases over time in China**
 
-![China Confirmed Cases](china_confirmed.png)
+<details>
+  <summary>Show Image: China Confirmed Cases</summary>
 
+  ![China Confirmed Cases](china_confirmed.png)
+
+</details>
 ---
 
 ## ✅ Question 3: Handling Missing Data
@@ -119,7 +128,12 @@ India: 200000+
 
 **Q6.4: Total deaths over time – United States**
 
-![US Total Deaths](us_total_deaths.png)
+<details>
+  <summary>Show Image: US Total Deaths</summary>
+
+  ![US Total Deaths](us_total_deaths.png)
+
+</details>
 
 ---
 
